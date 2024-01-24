@@ -1,0 +1,141 @@
+.footor{
+    background:#1E252B;
+    padding: 250px;
+}
+.footor__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footor__wrapper-logo{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    color: white;
+    margin-bottom: 25px;
+}
+.footor__wrapper-txt{
+    max-width: 427px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFF8C;
+    margin-bottom: 100px;
+}
+.footor__wrapper-sumbit{
+    width: 549px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background: #283036;
+    border-radius: 15px;
+    padding-left: 25px;
+    justify-content: space-between;
+    padding-right: 10px;
+
+}
+.footor__wrapper-sumbit-inp{
+    border: 1.5px solid;
+    border: none;
+    background: #283036;
+    border-left: 2px solid #837A93;
+    color:  white   ;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+.footor__wrapper-sumbit-btn{
+    background: #FF6E30;
+    border: none;
+    width: 130.43px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+    transition: .5s linear;
+}
+.footor__wrapper-sumbit-btn:hover{
+    border: 1px solid #FFFFFF1A;
+    background: #1E252B;
+    color: #FF6E30;
+}
+.footor-b{
+    background:#1E252B;
+    border-top: 2px solid #FFFFFF26;
+    padding: 20px;
+}
+.footor__desc{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footor__desc-bloks{
+    max-width: 260px;
+    width: 100%;
+}
+.footor__desc-bloks-log{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+.footor__desc-bloks-log-img{
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    padding: 7px 9px;
+    background: #FF6E30;
+}
+.footor__desc-bloks-logo{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: white;
+}
+.footor__desc-bloks-txt{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 21px;
+}
+.footor__desc-bloks-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF8C;
+}
+.footor__links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footor__links-logo{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.footor__links-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.footor__links-list-items-link{
+    color: #FFFFFF8C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
